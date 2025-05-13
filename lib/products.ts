@@ -1,4 +1,4 @@
-import type { Product } from "./types"
+import type { Product } from "./types";
 
 export const products: Product[] = [
   {
@@ -6,7 +6,7 @@ export const products: Product[] = [
     name: "Solana Branded Hoodie",
     description: "Premium quality hoodie with Solana logo.",
     price: "0.045",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/solana_hoodie.jpeg?height=400&width=400",
     details:
       "Stay warm and stylish with this premium Solana branded hoodie. Made from high-quality materials for comfort and durability.",
   },
@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Crypto Hardware Wallet",
     description: "Secure hardware wallet for your crypto assets.",
     price: "0.012",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/crypto_hardware_wallet.jpeg?height=400&width=400",
     details:
       "Keep your crypto assets secure with this state-of-the-art hardware wallet. Compatible with multiple blockchains including Solana.",
   },
@@ -24,7 +24,7 @@ export const products: Product[] = [
     name: "Blockchain Developer Course",
     description: "Comprehensive course on blockchain development.",
     price: "0.019999",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/blockchain_developer_course.jpeg?height=400&width=400",
     details:
       "Learn blockchain development from experts. This course covers everything from basics to advanced topics including Solana development.",
   },
@@ -33,7 +33,7 @@ export const products: Product[] = [
     name: "NFT Art Collection",
     description: "Limited edition NFT art collection.",
     price: "0.07550",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/nft_art_collection.jpeg?height=400&width=400",
     details:
       "Own a piece of digital art history with this limited edition NFT collection. Each piece is unique and authenticated on the blockchain.",
   },
@@ -73,5 +73,4 @@ export const products: Product[] = [
     details:
       "Get personalized advice from a blockchain expert. Whether you're starting a project or optimizing an existing one, this consultation will provide valuable insights.",
   },
-]
-
+];
